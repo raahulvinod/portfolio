@@ -41,7 +41,8 @@ const Hero = () => {
           ></TypeAnimation>
         </h1>
         <p className="font-bold text-gray-300 my-6 sm:text-lg lg:text-xl max-w-[200px] md:max-w-[600px] ml-1">
-          My name is rahul and i have 2+ years experience in web development.
+          My name is Rahul and I specialize in web development, focusing on
+          creating responsive and user-friendly web applications.
         </p>
       </div>
 
