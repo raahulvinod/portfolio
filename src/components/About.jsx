@@ -3,7 +3,10 @@ import mobile from '../assets/mobileR.png';
 
 const About = () => {
   return (
-    <div className="text-white gap-4 max-w-[1200px] mx-auto my-12 grid sm:grid-cols-3">
+    <div
+      className="text-white gap-4 max-w-[1200px] mx-auto my-12 grid sm:grid-cols-3"
+      id="about"
+    >
       <div className="sm:col-span-2 glass sm:p-16 my-auto text-left p-4">
         <div className="mx-auto max-w-[80%]">
           <h2 className="text-3xl font-bold mb-4">

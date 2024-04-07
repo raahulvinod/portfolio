@@ -16,14 +16,17 @@ const projects = [
 
 const Work = () => {
   return (
-    <div className="max-w-[1200px] mx-auto grid grid-cols-2 gap-4 glass p-6">
+    <div
+      className="max-w-[1200px] mx-auto grid grid-cols-2 gap-4 glass p-6"
+      id="portfolio"
+    >
       <div className="col-span-2 my-4">
         <h1 className="text-4xl mb-4 text-gray-300">My Work</h1>
       </div>
       {projects.map((project) => (
         <div
           key={project.id}
-          className="glass transform transition-transform hover:scale-105 duration-300 overflow-hidden shadow-lg h-[200px] group relative"
+          className="glass transform transition-transform hover:scale-105 duration-300 overflow-hidden shadow-lg md:h-[200px] group relative"
         >
           <img src={project.img} alt="" />
           <div className="group-hover:opacity-90 opacity-0 bg-[#232323] absolute transition-opacity duration-300 inset-0 flex flex-col justify-center items-center">
