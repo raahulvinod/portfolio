@@ -15,13 +15,13 @@ const Contact = () => {
       <div className="flex justify-center">
         <div className="my-auto text-purple-900">
           <a href="https://www.linkedin.com/in/raahulvinod/">
-            <AiFillLinkedin className="w-[80px] h-auto mb-4" />
+            <AiFillLinkedin className="w-[60px] h-auto mb-4" />
           </a>
           <a href="https://github.com/raahulvinod">
-            <AiFillGithub className="w-[80px] h-auto mb-4" />
+            <AiFillGithub className="w-[60px] h-auto mb-4" />
           </a>
           <a href="https://www.instagram.com/raahulvinod/">
-            <AiFillInstagram className="w-[80px] h-auto" />
+            <AiFillInstagram className="w-[60px] h-auto" />
           </a>
         </div>
 
@@ -29,7 +29,7 @@ const Contact = () => {
           <h2 className="mb-4 text-2xl font-bold text-gray-400">
             Ready to Get Started?
           </h2>
-          <form action="" method="POST">
+          <form action="https://getform.io/f/zbxdyyvb" method="POST">
             <div className="space-y-4 mb-6">
               <input
                 type="text"
@@ -56,7 +56,7 @@ const Contact = () => {
             <div className="text-center">
               <button
                 type="submit"
-                className="w-full bg-purple-700 max-w-md px-6 py-3 rounded-xl"
+                className="w-full bg-purple-700 text-gray-300 max-w-md px-6 py-3 rounded-xl"
               >
                 Send Message
               </button>
