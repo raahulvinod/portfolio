@@ -30,7 +30,7 @@ const Work = () => {
         >
           <img src={project.img} alt="" />
           <div className="group-hover:opacity-90 opacity-0 bg-[#232323] absolute transition-opacity duration-300 inset-0 flex flex-col justify-center items-center">
-            <span className="text-2xl font-bold text-white mb-4">
+            <span className="text-sm md:text-2xl font-bold text-white mb-4">
               {project.title}
             </span>
             <div className="flex gap-1">
