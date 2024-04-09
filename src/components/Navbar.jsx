@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="glass-nav md:backdrop-blur-xl text-gray-300 h-[96px] px-8 max-w-[1200px] flex justify-between items-center mx-auto">
-      <h1 className="text-xl font-bold">Rahul Vinod</h1>
+      <h1 className="text-3xl font-extrabold">RV.</h1>
       <ul className="hidden md:flex gap-6 text-xl cursor-pointer">
         <li>
           <Link to="hero" spy={true} smooth={true} offset={50} duration={500}>
