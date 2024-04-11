@@ -6,12 +6,14 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Featured from './components/Featured';
+import Projects from './components/Projects';
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <Projects/>
       <Work />
       {/* <Skills /> */}
       <Featured />
