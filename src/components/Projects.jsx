@@ -6,22 +6,47 @@ import proj5 from '../assets/nikepark.png';
 import proj6 from '../assets/brand.png';
 
 const projects = [
-  { id: 1, img: proj1, title: 'E-commerce Website', liveUrl: '/', github: '/' },
+  {
+    id: 1,
+    img: proj1,
+    title: 'E-commerce Website',
+    liveUrl: 'https://trendfy.vercel.app/',
+    github: 'https://github.com/raahulvinod/ecommerce-project',
+  },
   {
     id: 2,
     img: proj2,
     title: 'Learning Management system',
-    liveUrl: '/',
-    github: '/',
+    liveUrl: 'https://learnlyeducation.vercel.app/',
+    github: 'https://github.com/raahulvinod/lernly-learning-management-system',
   },
-  { id: 3, img: proj3, title: 'Blogging website', liveUrl: '/', github: '/' },
-  { id: 4, img: proj4, title: 'Airbnb clone', liveUrl: '/', github: '/' },
-  { id: 5, img: proj5, title: 'Nikepark UI', liveUrl: '/', github: '/' },
+  {
+    id: 3,
+    img: proj3,
+    title: 'Blogging website',
+    liveUrl: 'https://getblogspace.netlify.app/',
+    github: 'https://github.com/raahulvinod/blogspace-blogging',
+  },
+  {
+    id: 4,
+    img: proj4,
+    title: 'Airbnb clone',
+    liveUrl: 'https://airbnbbookings.vercel.app/',
+    github: 'https://github.com/raahulvinod/airbnb-clone',
+  },
+  {
+    id: 5,
+    img: proj5,
+    title: 'Nikepark UI',
+    liveUrl: 'https://nikepark.vercel.app/',
+    github: 'https://github.com/raahulvinod/ecommerce_next13',
+  },
   {
     id: 6,
     img: proj6,
     title: 'Online shopping Platform',
     liveUrl: 'https://brandistic-store.vercel.app/',
+    github: 'https://github.com/raahulvinod/ecommerce_next13',
   },
 ];
 
@@ -46,13 +71,13 @@ const Projects = () => {
             </span>
             <div className="flex gap-1">
               <a
-                href={project.liveUrl}
+                href={project.github}
                 className="bg-white px-5 py-2 rounded-xl font-bold"
               >
                 Github
               </a>
               <a
-                href={project.github}
+                href={project.liveUrl}
                 className="bg-white px-5 py-2 rounded-xl font-bold"
               >
                 Live
