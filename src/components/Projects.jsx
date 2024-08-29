@@ -1,17 +1,28 @@
-import proj1 from '../assets/proj1.png';
-import proj2 from '../assets/proj2.png';
-import proj3 from '../assets/proj3.png';
-import proj4 from '../assets/proj4.png';
-import proj5 from '../assets/proj5.png';
-import proj6 from '../assets/proj6.png';
+import proj1 from '../assets/trendfy1.png';
+import proj2 from '../assets/learnly2.png';
+import proj3 from '../assets/blogspace.png';
+import proj4 from '../assets/airbnb.png';
+import proj5 from '../assets/nikepark.png';
+import proj6 from '../assets/brand.png';
 
 const projects = [
   { id: 1, img: proj1, title: 'E-commerce Website', liveUrl: '/', github: '/' },
-  { id: 2, img: proj2, title: 'Blog Platform', liveUrl: '/', github: '/' },
-  { id: 3, img: proj3, title: 'Chat Application', liveUrl: '/', github: '/' },
-  { id: 4, img: proj4, title: 'Portfolio Website', liveUrl: '/', github: '/' },
-  { id: 5, img: proj5, title: 'Social Media App', liveUrl: '/', github: '/' },
-  { id: 6, img: proj6, title: 'Online Learning Platform', liveUrl: '/' },
+  {
+    id: 2,
+    img: proj2,
+    title: 'Learning Management system',
+    liveUrl: '/',
+    github: '/',
+  },
+  { id: 3, img: proj3, title: 'Blogging website', liveUrl: '/', github: '/' },
+  { id: 4, img: proj4, title: 'Airbnb clone', liveUrl: '/', github: '/' },
+  { id: 5, img: proj5, title: 'Nikepark UI', liveUrl: '/', github: '/' },
+  {
+    id: 6,
+    img: proj6,
+    title: 'Online shopping Platform',
+    liveUrl: 'https://brandistic-store.vercel.app/',
+  },
 ];
 
 const Projects = () => {
