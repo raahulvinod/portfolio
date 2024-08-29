@@ -39,7 +39,7 @@ const projects = [
     img: proj5,
     title: 'Nikepark UI',
     liveUrl: 'https://nikepark.vercel.app/',
-    github: 'https://github.com/raahulvinod/ecommerce_next13',
+    github: 'https://github.com/raahulvinod/master_tailwindcss',
   },
   {
     id: 6,
